@@ -13,19 +13,26 @@
     <title>Otsikko</title>
   </head>
   <body>
+<!-- Sisältö alkaa-->    
 
-<!-- Sisältö -->
+<!-- Otsikot -->
 
+  <!-- Isotnäytöt -->
     <div class="container-fluid">
       <div class="row">
-          <div class="col-8">
-            <h1 class="otsikko">Turvallisuus</h1>
-            <h5 class="alaotsikko">Urheilutapahtumassa</h5>
+          <div class="col-8 d-none d-md-block">
+            <h1 class="otsikko display-3">Turvallisuus</h1>
+            <h3 class="alaotsikko">Urheilutapahtumassa</h3>
           </div>
+  <!-- Pienetnäytöt (Piilossa API:lta)-->      
+          <div class="col-8 d-sm-block d-md-none">
+            <h1 class="otsikko" aria-hidden="true">Turvallisuus</h1>
+            <h5 class="alaotsikko" aria-hidden="true">Urheilutapahtumassa</h5>
+        </div>
 
-<!-- Sosiaalisen median nappulat-->
+<!-- Sosiaalisen median nappulat (Ei näy pienillä näytöillä)-->
 
-            <div class="col-4 clearfix d-none d-sm-block">
+            <div class="col-4 clearfix d-none d-md-block">
               <a class="social float-right" href="#"><i class="fa fa-twitter fa-2x zoom" aria-hidden="true"></i>
               <a class="social float-right" href="#"><i class="fa fa-instagram fa-2x zoom" aria-hidden="true"></i>
               <a class="social float-right" href="#"><i class="fa fa-facebook-square fa-2x zoom" aria-hidden="true"></i>   
@@ -64,7 +71,8 @@
                 </li>
                 </ul>
               </div>
-        </nav>  
+        </nav>
+
 <!-- Alaotsikko -->
 
         <div class="conteiner-fluid">
