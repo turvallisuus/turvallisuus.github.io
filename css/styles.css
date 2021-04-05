@@ -135,11 +135,15 @@ ul {font-family: "Montserrat", sans-serif}
   .pystykuva {
     float: right;
     max-height: 400px;
+    height: 100%;
+    width:auto;
     margin: 10px;
   }
   .vaakakuva {
     float: right;
       max-width: 400px;
       margin: 10px;
+      width: 100%;
+      height:auto;
   }
   
