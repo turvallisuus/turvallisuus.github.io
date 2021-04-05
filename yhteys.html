@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS Tyylitiedostot -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Turvallisuus Urheilutapahtumassa</title>
+  </head>
+  <body>
+<!-- Sisältö alkaa-->    
+
+<!-- Otsikot -->
+
+  <!-- Isotnäytöt -->
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-8 d-none d-md-block">
+            <h1 class="otsikko display-3">Turvallisuus</h1>
+            <h3 class="alaotsikko">Urheilutapahtumassa</h3>
+          </div>
+  <!-- Pienetnäytöt (Piilossa API:lta)-->      
+          <div class="col-8 d-sm-block d-md-none">
+            <h1 class="otsikko" aria-hidden="true">Turvallisuus</h1>
+            <h5 class="alaotsikko" aria-hidden="true">Urheilutapahtumassa</h5>
+        </div>
+
+<!-- Sosiaalisen median nappulat (Ei näy pienillä näytöillä)-->
+
+            <div class="col-4 clearfix d-none d-md-block">
+              <a class="social float-right" href="#"><i class="fa fa-twitter fa-2x zoom" aria-hidden="true"></i></a>
+              <a class="social float-right" href="#"><i class="fa fa-instagram fa-2x zoom" aria-hidden="true"></i></a>
+              <a class="social float-right" href="#"><i class="fa fa-facebook-square fa-2x zoom" aria-hidden="true"></i></a>   
+            </div>
+         </div>
+      </div>
+    
+
+<!-- Valikko -->
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item zoom">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Koti</a>
+                  </li>
+                  <li class="nav-item zoom">
+                    <a class="nav-link" href="turvallisuus.html"><i class="fa fa-blind fa-fw" aria-hidden="true"></i> Turvallisuus</a>
+                  </li>
+                  <li class="nav-item zoom">
+                    <a class="nav-link" href="vastuut.html"><i class="fa fa-legal fa-fw" aria-hidden="true"></i> Vastuut ja velvollisuudet</a>
+                  </li>
+                  <li class="nav-item zoom">
+                    <a class="nav-link" href="aikataulutus.html"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> Aikataulutus/ Askelmerkit</a>
+                  </li>
+                  <li class="nav-item zoom">
+                    <a class="nav-link" href="tietoa.html"><i class="fa fa-info fa-fw" aria-hidden="true"></i>  Lisätietoa</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="yhteys.html"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>  Ota Yhteyttä</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+
+<!-- Alaotsikko -->
+
+        <div class="conteiner-fluid">
+          <div class="row">
+            <div class="w-100 p-3 sisalto">
+                <div class="col-6">
+                <h4><i class="fa fa-envelope fa-fw otsaicon" aria-hidden="true"></i> Ota yhteyttä:</h4>
+              </div><br>
+               
+<!-- Lomakkeet -->
+          <img src="img/yleiskuva.jpg" class="img-fluid rounded pystykuva" alt="Juoksijat">
+
+              <div class="col-12">
+                <form action="#">
+                <div class="tiedot">
+                  <div class="form-group">
+                    <label for="nimi">Nimi:</label>
+                    <input type="nimi" class="form-control" id="nimi" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="sahkoposti">Sähköposti osoite:</label>
+                    <input type="email" class="form-control" id="sahkoposti" placeholder="nimi@esimerkki.com" required>
+                  </div>
+                </div>
+                  <div class="form-group">
+                    <label for="tekstikentta">Viesti:</label>
+                    <textarea class="form-control" id="tekstikentta" rows="10"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary my-1">Lähetä</button>
+                </form><br><br>
+                <div class="paluu">
+                <a class="btn btn-outline-primary btn-sm" href="#top" role="button"><i class="fa Example of arrow-up fa-arrow-up fa-fw" aria-hidden="true"></i> Takaisin Alkuun</a>
+                </div>
+            </div> 
+          </div>
+      </div>
+      <div class="copyright" aria-hidden="true">
+        <p>
+          © Desing by: Jake
+        </p>
+      </div>
+  </div>  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

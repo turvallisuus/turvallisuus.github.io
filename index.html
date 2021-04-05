@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Turvallisuus Urheilutapahtumassa</title>
@@ -23,7 +29,7 @@
           <div class="col-8 d-none d-md-block">
             <h1 class="otsikko display-3">Turvallisuus</h1>
             <h3 class="alaotsikko">Urheilutapahtumassa</h3>
-          </div>
+          </div><br>
   <!-- Pienetnäytöt (Piilossa API:lta)-->      
           <div class="col-8 d-sm-block d-md-none">
             <h1 class="otsikko" aria-hidden="true">Turvallisuus</h1>
@@ -53,20 +59,20 @@
                   <li class="nav-item active">
                     <a class="nav-link" href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Koti</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link zoom" href="turvallisuus.html"><i class="fa fa-blind fa-fw" aria-hidden="true"></i> Turvallisuus</a>
+                  <li class="nav-item zoom">
+                    <a class="nav-link" href="turvallisuus.html"><i class="fa fa-blind fa-fw" aria-hidden="true"></i> Turvallisuus</a>
                   </li>
                   <li class="nav-item zoom">
-                    <a class="nav-link" href="#"><i class="fa fa-legal fa-fw" aria-hidden="true"></i> Vastuut ja velvollisuudet</a>
+                    <a class="nav-link" href="vastuut.html"><i class="fa fa-legal fa-fw" aria-hidden="true"></i> Vastuut ja velvollisuudet</a>
                   </li>
                   <li class="nav-item zoom">
-                    <a class="nav-link" href="#"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> Aikataulutus/ Askelmerkit</a>
+                    <a class="nav-link" href="aikataulutus.html"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> Aikataulutus/ Askelmerkit</a>
                   </li>
                   <li class="nav-item zoom">
-                    <a class="nav-link" href="#"><i class="fa fa-info fa-fw" aria-hidden="true"></i>  Lisätietoa</a>
+                    <a class="nav-link" href="tietoa.html"><i class="fa fa-info fa-fw" aria-hidden="true"></i>  Lisätietoa</a>
                   </li>
                   <li class="nav-item zoom">
-                    <a class="nav-link" href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>  Ota Yhteyttä</a>
+                    <a class="nav-link" href="yhteys.html"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>  Ota Yhteyttä</a>
                   </li>
                 </ul>
               </div>
@@ -76,35 +82,82 @@
 
         <div class="conteiner-fluid">
           <div class="row">
-            <div class="sisalto">
+            <div class="w-100 p-3 sisalto">
                 <div class="col-6">
-                <h4>Etusivu</h4>
+                <h4><i class="fa fa-home fa-fw otsaicon" aria-hidden="true"></i> Yleistä</h4><br>
               </div>
             
           
         
               
-<!-- Tekstialue -->
+<!-- Sisältö alue -->
 
               <div class="col-12">
+                <p>
+                  Turvallisen urheilutapahtuman suunnittelu voi aluksi tuntua hankalalta. 
+                  Suurta urheilutapahtumaa suunnitellessa saattaa herätä kysymyksiä, kuten ”Koskeeko tämä meidän tapahtumaamme?” tai ”Tarvitseeko meidän tehdä turvallisuussuunnitelmaa?” 
+                  Näiden verkkosivujen on tarkoitus tuoda vinkkejä turvallisen urheilutapahtuman järjestämiseen ja tapahtuman läpiviemiseen sekä vastata mahdollisimman moneen kysymykseen, 
+                  mitä voi tapahtuman turvallisuussuunnitteluun liittyä. 
+                  Näiden verkkosivujen on tarkoitus toimia muistilistana ja antaa eväät turvallisuussuunnitteluun.<br>
+                </p>
+
+<!-- Karuselli -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="karuselli/kaarinauhatalku.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Plaaa</h5>
+        <p>Plaa</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="karuselli/kanttari.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Plaaa</h5>
+        <p>Plaa</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="karuselli/varojuoksijaaalam.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Plaaa</h5>
+        <p>Plaa</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="karuselli/nauhaisompikar.jpg" alt="Fourth slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Plaaa</h5>
+        <p>Plaa</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Edellinen</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Seuraava</span>
+  </a>
+</div><br>
+
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Vivamus blandit iaculis aliquam. Nam faucibus magna vel posuere condimentum. 
-                Praesent eu sollicitudin lorem. Nulla id lacinia augue. Maecenas nisi ante, 
-                aliquet id condimentum in, dapibus ut sem. Maecenas nec lorem sit amet quam scelerisque 
-                vehicula sed vel purus. Nunc tincidunt lectus et enim varius, a viverra magna sollicitudin. 
-                Sed pulvinar nunc magna, ac fermentum odio accumsan eu.
+                Tarkemmat linkit lainsäädäntöön, määräyksiin ja ohjeistuksiin löydät linkkisivulta, jonne on koottu laajasti tietoa, 
+                joita voidaan hyödyntää tapahtuman turvallisuuden suunnittelussa. 
+                Huomaa, että tämä sivusto käsittelee ainoastaan turvallisuussuunnittelua eikä kokonaisen tapahtuman järjestämistä.
               </p>
               <p> 
-                Aliquam vehicula, turpis at vulputate tempor, quam sapien bibendum libero, vitae rutrum ipsum metus quis leo. 
-                Etiam dignissim ultricies porta. Maecenas lacinia tristique dapibus. 
-                Integer at odio sed est dictum varius id vel quam.
-                Phasellus at turpis eu nisl gravida ornare. Maecenas ullamcorper quam vitae sapien dapibus, 
-                eget tincidunt nisl gravida. Cras sed ligula lacus. Donec eu ultrices nulla. Integer vehicula, 
-                ex a porta consectetur, magna justo blandit metus, ut maximus lacus nisi et eros. 
-                Nam in finibus magna. Maecenas vitae mattis sem. Fusce feugiat, turpis a ullamcorper porttitor, 
-                ligula velit suscipit turpis, quis placerat enim lectus ac nisl. Proin a tincidunt erat. 
-                Duis eleifend congue arcu, vitae rhoncus tellus pellentesque vitae.
+                Tämä verkkosivu on kehitetty osana opinnäytetyötämme, jossa teimme turvallisuussuunnittelun Vantaan Maratonille syksyksi 2020. 
+                Olemme Turvallisuuden ja riskienhallinnan tradenomiopiskelijoita Laurea ammattikorkeakoulusta. 
                 <div class="paluu">
                 <a class="btn btn-outline-primary btn-sm" href="#top" role="button"><i class="fa Example of arrow-up fa-arrow-up fa-fw" aria-hidden="true"></i> Takaisin Alkuun</a>
                 </div>
@@ -118,8 +171,6 @@
         </p>
       </div>
   </div>  
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
   </body>
 </html>

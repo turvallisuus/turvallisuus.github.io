@@ -35,10 +35,14 @@ h1,h2,h3,h4,h5,h6,p {font-family: "Montserrat", sans-serif}
     border-radius: 6px;
     box-shadow: 2px 2px 6px;
     font-size: 1rem;
+    max-width: 100%;
 }
 .copyright{
     font-size: 10px;
     text-align: center;
+}
+.otsaicon {
+    color: rgb(54, 94, 131);
 }
 
 /* Valikko */    
@@ -56,10 +60,12 @@ h1,h2,h3,h4,h5,h6,p {font-family: "Montserrat", sans-serif}
 }
 .nav-link:hover{
     background-color: rgb(219, 199, 132, 0.8);
-    border-radius: 6px;   
+    border-radius: 6px;
+      
 }
 .zoom:hover {
     transform: scale(1.1);
+    transition: 1s; 
   }
 @media screen and (max-width: 767px) {
 .navbar-nav {
@@ -94,3 +100,46 @@ h1,h2,h3,h4,h5,h6,p {font-family: "Montserrat", sans-serif}
 .paluu {
     color: (44, 77, 109);
 }
+
+/* Lomake */
+
+.tiedot {
+    max-width: 40%;
+}
+
+textarea {
+    max-width: 60%;
+}
+@media screen and (max-width: 767px){
+    .tiedot {
+        max-width: 100%;
+    }
+    textarea {
+        max-width: 100%;
+    }
+}
+/* Lista */
+
+ul {font-family: "Montserrat", sans-serif}
+
+
+/* Karuselli */
+
+.carousel {
+    margin: auto;
+    width:90%;
+    
+  }
+
+  /* Kuvat */
+  .pystykuva {
+    float: right;
+    max-height: 400px;
+    margin: 10px;
+  }
+  .vaakakuva {
+    float: right;
+      max-width: 400px;
+      margin: 10px;
+  }
+  
