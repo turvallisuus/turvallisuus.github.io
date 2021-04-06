@@ -155,3 +155,6 @@ ul {font-family: "Montserrat", sans-serif}
   .carousel-caption {
       background-color: rgb(54, 94, 131, 0.6);
   }
+  .otsikkolinkki:hover {
+    text-decoration:none;
+  }
