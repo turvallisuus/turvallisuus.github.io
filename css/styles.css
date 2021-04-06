@@ -45,6 +45,12 @@ h1,h2,h3,h4,h5,h6,p {font-family: "Montserrat", sans-serif}
     color: rgb(54, 94, 131);
 }
 
+/* Tekstin Otsikot */
+
+h5 {
+    color: rgb(54, 94, 131)
+}
+
 /* Valikko */    
 
 .navbar {
@@ -98,8 +104,11 @@ h1,h2,h3,h4,h5,h6,p {font-family: "Montserrat", sans-serif}
 
 /* Erikois linkit */
 .paluu {
-    color: (44, 77, 109);
+   
 }
+.otsikkolinkki:hover {
+    text-decoration: none;
+  }
 
 /* Lomake */
 
@@ -121,7 +130,14 @@ textarea {
 }
 /* Lista */
 
-ul {font-family: "Montserrat", sans-serif}
+ul {
+    font-family: "Montserrat", sans-serif;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+li {
+    margin: 10px;
+}   
 
 
 /* Karuselli */
@@ -131,6 +147,9 @@ ul {font-family: "Montserrat", sans-serif}
     width:90%;
     
   }
+.carousel-caption {
+    background-color: rgb(54, 94, 131, 0.5);
+}
 
   /* Kuvat */
   .pystykuva {
@@ -147,14 +166,7 @@ ul {font-family: "Montserrat", sans-serif}
       width: 100%;
       height:auto;
   }
-  /* Tekstin Otsikot */
-
-  h5 {
-    color: rgb(54, 94, 131)
-  }
-  .carousel-caption {
-      background-color: rgb(54, 94, 131, 0.6);
-  }
-  .otsikkolinkki:hover {
-    text-decoration:none;
-  }
+  
+  
+  
+  
