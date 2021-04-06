@@ -152,3 +152,6 @@ ul {font-family: "Montserrat", sans-serif}
   h5 {
     color: rgb(54, 94, 131)
   }
+  .carousel-caption {
+      background-color: rgb(54, 94, 131, 0.6);
+  }
