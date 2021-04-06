@@ -147,4 +147,8 @@ ul {font-family: "Montserrat", sans-serif}
       width: 100%;
       height:auto;
   }
-  
+  /* Tekstin Otsikot */
+
+  h5 {
+    color: rgb(54, 94, 131)
+  }
