@@ -144,11 +144,18 @@ li {
 
 .carousel {
     margin: auto;
-    width:90%;
+    width:60%;
+    height:auto;
     
   }
 .carousel-caption {
     background-color: rgb(54, 94, 131, 0.5);
+}
+
+@media screen and (max-width: 767px){
+    .carousel {
+    width: 100%;
+    }
 }
 
   /* Kuvat */
